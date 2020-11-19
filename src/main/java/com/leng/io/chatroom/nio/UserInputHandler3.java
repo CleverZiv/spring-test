@@ -1,4 +1,4 @@
-package com.leng.io.chatroom.bio;
+package com.leng.io.chatroom.nio;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,12 +12,12 @@ import java.io.InputStreamReader;
  * @Date 2020/11/15 12:28
  * @Autor lengxuezhang
  */
-public class UserInputHandler implements Runnable{
-    private static final Logger logger = LoggerFactory.getLogger(UserInputHandler.class);
+public class UserInputHandler3 implements Runnable{
+    private static final Logger logger = LoggerFactory.getLogger(UserInputHandler3.class);
     // 客户端连接信息
-    private ChatClient chatClient;
+    private ChatClient3 chatClient;
 
-    public UserInputHandler(ChatClient chatClient) {
+    public UserInputHandler3(ChatClient3 chatClient) {
         this.chatClient = chatClient;
     }
 
